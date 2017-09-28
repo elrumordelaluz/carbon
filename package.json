@@ -34,8 +34,11 @@
     "react-spinner": "^0.2.7",
     "react-syntax-highlight": "^0.0.6",
     "tohash": "^1.0.2",
-    "twitter": "^1.7.1",
-    "uglifyjs-webpack-plugin": "1.0.0-beta.1"
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {
+    "uglifyjs-webpack-plugin": "1.0.0-beta.1",
+    "webpack": "^3.6.0"
   },
   "now": {
     "env": {
@@ -45,5 +48,14 @@
       "TWITTER_ACCESS_TOKEN_SECRET": "@twitter-access-token-secret"
     }
   },
-  "devDependencies": {}
+  "description": "Create and share beautiful images of your source code",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dawnlabs/carbon.git"
+  },
+  "author": "Dawn Labs <@dawnlabs>",
+  "bugs": {
+    "url": "https://github.com/dawnlabs/carbon/issues"
+  },
+  "homepage": "https://dawnlabs.io/carbon"
 }
